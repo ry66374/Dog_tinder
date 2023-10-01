@@ -1,0 +1,166 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+#title{
+  background-color: #FF5D5D;
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+}
+
+
+/* ************************************************************************ Heading ***************************************************************************** */
+.big-heading{
+  line-height: 1.5;
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+.container-fluid{
+  padding: 3% 13% 7%;
+}
+/* Navigation Bar */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: lighter;
+}
+
+
+/* Download buttons */
+
+.down{
+  margin: 5% 3% 5% 0;
+}
+/* Title Image */
+.title_img{
+  width: 18%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+/* features */
+
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+}
+
+.feature-box{
+  padding: 5%;
+}
+.cir_chk{
+  color: #FF5D5D;
+  margin: 0 0 20px 0;
+}
+.cir_chk:hover{
+  color: #CF0A0A;
+}
+/* ******************************************************Testimmonial section ************************************************************************/
+
+#testimonials{
+  padding: 7% 14%;
+  background-color: #FF5D5D;
+  color: white;
+}
+.carousel-item{
+  padding: 7% 14%;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.testi_img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+/* press section */
+#press{
+  background-color: #FF5D5D;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* .............................................................................pricing................................................................... */
+#pricing{
+  padding: 100px;
+}
+.price-text{
+ font-size: 3rem;
+ line-height: 1.5;
+ font-weight: bold;
+}
+
+.price_colm {
+  padding: 3% 2%;
+}
+.butn{
+  width: 75%;
+}
+
+/********************************************************************************CTA****************************************************************************/
+#cta {
+  background-color: #FF5D5D;
+  color: white;
+  padding: 7% 14%;
+}
+
+
+/****************************************************************************** Footer section ************************************************************** */
+
+#footer{
+  padding: 7% 14%;
+}
+.social-icon {
+  margin: 20px 10px;
+}
+
+
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+  .title_img{
+    position: static;
+    transform: rotate(0);
+  }
+}
